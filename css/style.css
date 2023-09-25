@@ -19,7 +19,7 @@
 body {
   font-family: "Roboto", sans-serif;
   line-height: 1.6;
-  background: #fff;
+  /* background: #fff; */
   color: #333;
   background-color: rgb(216, 220, 253);
 }
