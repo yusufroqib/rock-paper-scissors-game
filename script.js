@@ -74,7 +74,7 @@ const showWinner = (winner, computerChoice) => {
     `;
   } else {
     result.innerHTML = `
-        <h1>It is a draw</h1>
+        <h1>It is a Draw</h1>
         <i id="${computerChoice}" class="choice fas fa-hand-${computerChoice} fa-10x"></i>
         <p>Computer Chose <strong>${computerChoice.charAt(0).toUpperCase()+computerChoice.slice(1)}</strong></p>
         `;
